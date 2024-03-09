@@ -1,0 +1,69 @@
+.header-strip{
+    @include position(fixed, 0, 0, 0, 0, 20);
+    background-color: #000000;
+    padding: 8px 274px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media($upto-medium){
+        justify-content: center;
+        padding: 0px 0px;
+    }
+    .header-strip-wrapper{
+      max-width: 892px; 
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      @media($upto-medium){
+        justify-content: center;
+    }
+    }
+    .header-strip__content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 138px;
+        height: 16px;
+        gap: 10px;    
+        img{
+            width: 16px;
+            height: 16px;
+        }
+        h1{
+            @include fontSpecs(12px, 400, #EB4C6B, 14.4px, normal);
+            font-family: 'Simplon Norm';
+            letter-spacing: 1px;
+            margin: 0;
+        }
+        @media($upto-medium){
+            display: none;
+        }
+        
+    }
+    .header-strip__content-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 138px;
+        height: 16px;
+        gap: 10px;    
+        img{
+            width: 16px;
+            height: 16px;
+        }
+        h1{
+            @include fontSpecs(12px, 400, #EB4C6B, 14.4px, normal);
+            font-family: 'Simplon Norm';
+            letter-spacing: 1px;
+            margin: 0;
+        }
+        
+      
+        @media ($large-onwards) { // Bootstrap's medium breakpoint
+          display: none !important; // hide on medium and larger devices
+        }
+      
+      }
+}

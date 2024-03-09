@@ -1,0 +1,35 @@
+.filter-section-mobile{
+    display: none;
+    @media($upto-small){
+        display: flex;
+    }
+    align-items: center;
+    height: 41px;
+    width: calc(100% + 32px);
+    // position: relative;
+    border-width: 1px;
+    border-color: #E5E5E5;
+    border-style: solid;
+    border-left: 0px;
+    border-right: 0px;
+    button{
+        background-color: transparent;
+        height: 41px;
+        width: 50%;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        font-family: Simplon Norm;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0px;
+        text-align: left;
+        gap: 8px;
+
+
+    }
+}
