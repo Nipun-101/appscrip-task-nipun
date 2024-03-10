@@ -199,8 +199,148 @@ export default function Home() {
             </div>
           </div>
 
-        
         </div>
+
+        <footer className="footer-main">
+          <div className="footer-first-section">
+            <div className="subscribe-section">
+                <h2>
+                Be the first to know
+                </h2>
+                <p>
+                Sign up for updates from mettā muse.
+                </p>
+                <div className="subscribe-input-wrap">
+                  <input placeholder="Enter your e-mail..."/>
+                  <button>Subscribe</button>
+                </div>
+            </div>
+            <div className="contact-wrap">
+              <div className="call-contact">
+                <h1>Contact us</h1>
+                <div className="number-email-wrap">
+                  <p>+44 221 133 5360</p>
+                  <span>
+                    <Image
+                      src="images/diamond-symbol.svg"
+                      width={6}
+                      height={6}
+                    ></Image>
+                  </span>
+                  <p>customercare@mettamuse.com</p>
+                </div>
+                
+              </div>
+
+              <div className="currency-wrap">
+                <h1>Currency</h1>
+                <div className="currency-logo-wrap">
+                  <Image
+                    src="images/us-flag.svg"
+                    width={24}
+                    height={24}
+                  />
+
+                  <p className='currency-name'>. USD</p>
+                 
+                </div>
+                <p>Transactions will be completed in Euros and a currency reference is available on hover.</p>
+              </div>
+
+            </div>
+           
+          </div>
+          <div className="footer-second-section">
+            <div className="links-section">
+              <div className="meta-muse">
+                <h1>mettā muse</h1>
+                <ul>
+                  <li>About Us</li>
+                  <li>Stories</li>
+                  <li>Artisans</li>
+                  <li>Boutiques</li>
+                  <li>About Us</li>
+                  <li>Contact Us</li>
+                  <li>EU Compliances Docs</li>
+                </ul>
+              </div>
+              <div className="quick-links">
+                <h1>Quick Links</h1>
+                <ul>
+                  <li>Orders & Shipping</li>
+                  <li>Join/Login as a Seller</li>
+                  <li>Payment & Pricing</li>
+                  <li>Return & Refunds</li>
+                  <li>FAQs</li>
+                  <li>Privacy Policy</li>
+                  <li>Terms & Conditions</li>
+                </ul>
+                
+              </div>
+            </div> 
+            <div className="follow-section">
+              <div className="follow-us">
+                <h1>Follow us</h1>
+                <div className="linked-in-wrap">
+                  <Image
+                    src="/images/linkedIn.svg"
+                    width={32}
+                    height={32}
+                  />
+                   <Image
+                    src="/images/instagram.svg"
+                    width={32}
+                    height={32}
+                  />
+
+                </div>
+              </div>
+              <div className="pay-card-wrap">
+                <h1><span>mettā muse</span> Accepts</h1>
+                <div className="cards-wrap">
+                  <Image
+                    src="images/g-pay.svg"
+                    width={56}
+                    height={35}
+                  />
+                  <Image
+                    src="images/mastercard.svg"
+                    width={56}
+                    height={35}
+                  />
+                  <Image
+                    src="images/paypal.svg"
+                    width={56}
+                    height={35}
+                  />
+                  <Image
+                    src="images/amex.svg"
+                    width={56}
+                    height={35}
+                  />
+                  <Image
+                    src="images/apple-pay.svg"
+                    width={56}
+                    height={35}
+                  />
+                   <Image
+                    src="images/pay.svg"
+                    width={56}
+                    height={35}
+                  />
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="copy-right-wrap">
+            <p>
+            Copyright © 2023 mettamuse. All rights reserved.
+            </p>
+          </div>
+
+            
+        </footer>
       </main>
     </>
   );

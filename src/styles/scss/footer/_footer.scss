@@ -1,0 +1,323 @@
+.footer-main{
+    display: flex;
+    flex-direction: column;
+    padding-top: 79px;
+    padding-bottom: 25px;
+    padding-left: 128px;
+    padding-right: 64px;
+    background-color: #000000;
+    min-height: 750px;
+    color: #FFFFFF;
+    @media($upto-small){
+        padding: 24px 16px;
+    }
+
+    .footer-first-section{
+        display: flex;
+        height: 317px;
+        border-bottom: 1px solid #FFFFFF;
+        @media($upto-small){
+            flex-direction: column;
+        }
+        .subscribe-section{
+            display:flex ;
+            flex-direction: column;
+            width: 888px;
+
+            @media($upto-small){
+                width: 100%;
+                gap: 8px;
+                flex-direction: column;
+                padding-bottom: 24px;
+                border-bottom: 1px solid #FFFFFF;
+            }
+            h2{
+                font-family: Simplon Norm;
+                font-size: 20px ;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+                text-transform: uppercase ;
+                @media($upto-small){
+                    font-size: 16px;
+                    line-height: 19px;
+                }
+
+            }
+            p{
+                margin-top: 24px ;
+                font-family: Simplon Norm;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 19px;
+                letter-spacing: 0px;
+                text-align: left;
+                @media($upto-small){
+                    margin: 0px;
+                }
+
+            }
+            .subscribe-input-wrap{
+                margin-top: 51px;
+                gap: 1rem;
+                display: flex;
+                @media($upto-small){
+                    margin-top: 16px;
+                }
+                input{
+                    width: 384px;
+                    height: 47px;
+                    padding: 14px 24px;
+                    gap: 8px;
+                    border: none;
+                    border-width: 0px;
+                    @media($upto-small) {
+                        width: 226px;
+                    }
+                    
+                }
+                button{
+                    width: 184px;
+                    height: 48px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 5px;
+                    border-width: 1.14px;
+                    border-color: #BFC8CD;
+                    opacity: 30%;
+                    font-family: Simplon Norm;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 22px;
+                    letter-spacing: 0rem;
+                    text-align: left;
+                    background-color: transparent;
+                    color: #BFC8CD;
+                    text-transform: uppercase;
+
+                    @media($upto-small){
+                        width: 109px;
+                        font-family: Simplon Norm;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 19px;
+
+                    }
+    
+    
+                }
+            }
+        }
+        .contact-wrap{
+            
+            display: flex;
+            flex-direction: column;
+            @media($upto-small) {
+                flex-direction: column;
+                padding-top: 24px;
+            }
+            h1{
+                font-family: Simplon Norm;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+                text-transform: uppercase;
+                @media($upto-small){
+                    font-family: Simplon Norm;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 19px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                }
+            }
+            .call-contact{
+                gap: 1rem;
+                .number-email-wrap{
+                    margin-top: 16px;
+                    display: flex ;
+                    flex-direction: column;
+                    @media($upto-small){
+                        flex-direction: row;
+                        align-items: center;
+                        gap: 8px;
+                    }
+                    span{
+                        display: none;
+                        @media($upto-small) {
+                            display: block;
+                        }
+                    }
+                }
+                p{
+                    font-family: Simplon Norm;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 19px;
+                    letter-spacing: 0px;
+                    text-align: left;
+
+                    @media($upto-small){
+                        font-family: Simplon Norm;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 17px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        margin: 0px;
+                    }
+
+                }
+
+            }
+            .currency-wrap{
+                @media($upto-small){
+                    display: none;
+                }
+                display: flex;
+                flex-direction: column;
+                margin-top: 1.5rem;
+                gap :1rem;
+                p{
+                    font-family: Simplon Norm;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 14px;
+                    letter-spacing: 0px;
+                    text-align: left;
+
+                }
+                .currency-logo-wrap{
+                    display: flex;
+                    align-items: center;
+                    gap: .5rem;
+                    min-width: 72px;
+                    width: auto;
+                    .currency-name{
+                        margin-top: 0px;
+                        margin-bottom: 0px;
+                        font-family: Simplon Norm;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 19px;
+                        letter-spacing: 1px;
+                        text-align: left;
+                        text-transform: uppercase;
+        
+                    }
+                }
+            }
+        }
+        
+    
+    }
+    .footer-second-section{
+        @media($upto-small){
+            display: none;
+        }
+        padding-top: 56px;
+        display: flex;
+        .links-section{
+            display: flex;
+            width: 888px;
+            h1{
+                margin-bottom: 18px;
+                font-family: Simplon Norm;
+                font-size: 25px;
+                font-weight: 700;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;           
+            }
+            ul{
+                padding: 0px;
+            }
+            li{
+                font-family: Simplon Norm;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: left;
+                list-style: none;
+                margin-left: 0px;
+                margin-top: 16px;
+            }
+            .meta-muse{
+                display: flex;
+                flex-direction: column;
+                width: 166px;
+            }
+            .quick-links{
+                margin-left: 210px;
+                display: flex;
+                flex-direction: column;
+                width: 166px;
+            }            
+        }
+        .follow-section{
+            display: flex;
+            flex-direction: column;
+            h1{
+                font-family: Simplon Norm;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+                text-transform: uppercase;
+            }
+            .follow-us{
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+                .linked-in-wrap{
+                    display: flex;
+                    width: auto;
+                    gap: 12px;
+
+                }
+
+            }
+            .pay-card-wrap{
+                display: flex;
+                flex-direction: column;
+                gap: 24px; 
+                margin-top: 56px;
+                span{
+                    text-transform: lowercase !important;
+                }
+                .cards-wrap{
+                    display: flex;
+                    width: auto;
+                    gap: 12px;
+                    
+
+                }
+            }
+        }
+
+    }
+    .copy-right-wrap{
+        @media($upto-small){
+            display: none;
+        }
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 36px;
+        p{
+            font-family: Simplon Norm;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+            letter-spacing: 0px;
+            text-align: center;
+        }
+    }
+}
+
